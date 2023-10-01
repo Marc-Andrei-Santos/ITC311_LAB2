@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <title>LAB 2 - MUSIC PLAYER</title>
     <link rel="stylesheet" type="text/css" href="<?= base_url('public/include/styles.css') ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -12,8 +12,7 @@
     <script src="<?= base_url('public/include/js/script.js') ?>"></script>
 
     <style>
-        /* Global Styles */
-
+        
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f0f0f0;
@@ -85,7 +84,7 @@
             background-color: #0056b3;
         }
 
-        /* Music Player Styles */
+        /* Music Styles */
 
         #player-container {
             max-width: 400px;
@@ -124,8 +123,6 @@
             background-color: #007bff;
             color: #fff;
         }
-
-        /* Additional Styles */
 
         .button-space {
             margin-right: 10px;
@@ -170,7 +167,7 @@
         </div>
     </form>
 
-    <h1>Music Player</h1>
+    <h1>ITC311 LAB 2 - Music Player</h1>
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         My Playlist
     </button>
